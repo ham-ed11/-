@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <header class="header">
+        <img src="토트넘.png" alt="토트넘 로고" class="logo">
+    <title>토트넘 선수 정보</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">토트넘 선수 정보</h1>
+    </header>
+    <!-- 추가한 배너 부분 -->
+<div class="banners">
+    <div class="banner">
+        <a href="이적시장.html" target="_blank">
+            <p>이적시장</p>
+        </a>
+    </div>
+
+    <div class="banner">
+        <a href="링크2" target="_blank">
+            <p>팀검색</p>
+        </a>
+    </div>
+
+    <div class="banner">
+        <a href="링크3" target="_blank">
+            <p>경기기록</p>
+        </a>
+    </div>
+</div>
+
+    <div class="content">
+        <div id="add-player-form" class="add-player">
+            <h2 class="form-title">선수 추가</h2>
+            <label for="name">이름: </label>
+            <input type="text" id="name" placeholder="이름" />
+            <br>
+            <label for="birthdate">생년월일: </label>
+            <input type="text" id="birthdate" placeholder="생년월일 (YYYY-MM-DD)" />
+            <br>
+            <label for="yearsPlayed">뛰었던 기간 (년): </label>
+            <input type="text" id="yearsPlayed" placeholder="뛰었던 기간 (년)" />
+            <br>
+            <label for="goalsScored">득점 현황: </label>
+            <input type="text" id="goalsScored" placeholder="득점 현황 (골)" />
+            <br>
+            <label for="weightChange">몸무게 변화량: </label>
+            <input type="text" id="weightChange" placeholder="몸무게 변화량" />
+            <br>
+            <label for="teamCareer">팀 경력: </label>
+            <input type="text" id="teamCareer" placeholder="팀 경력" />
+            <br>
+            <label for="imageURL">사진 URL: </label>
+            <input type="text" id="imageURL" placeholder="사진 URL" />
+            <button id="addPlayerButton" class="add-button">추가</button>
+        </div>
+        <div id="search-player-form" class="add-player">
+            <h2 class="form-title">선수 검색</h2>
+            <label for="searchPlayer">선수 검색: </label>
+            <input type="text" id="searchPlayer" placeholder="선수 검색" />
+            <button id="searchButton">검색</button>
+        </div>
+        <div id="player-info" class="player-list">
+            <h2 class="form-title">선수 명단</h2> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="이적시장.js"></script>
+
+    <script>
+        // 이 부분에서 renderPlayers()를 호출하여 초기 선수 명단을 표시합니다.
+        renderPlayers();
+    </script>
+</body>
+</html>
