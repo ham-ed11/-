@@ -1,0 +1,121 @@
+/* 로고 스타일 */
+.logo {
+    width: 300px; /* 로고의 폭 설정, 필요에 따라 조절 가능 */
+    height: auto; /* 높이 자동 조절 */
+    margin-right: 0px; /* 로고와 제목 사이의 간격 조절 */
+}
+
+/* 추가한 배너 스타일 */
+.banners {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 100px; /* 이미지 크기 조절 */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.banner a {
+    font-family :initial;
+    font-size: 40pt;
+    text-decoration: none;
+    color: white;
+}
+
+.banner a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #132257;
+    color: white;
+}
+
+.header {
+    background-color: #001489;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap; /* 여러 열로 나눔 */
+    justify-content: center; /* 가운데 정렬 */
+    margin: 20px;
+    color: black;
+}
+
+.add-player,
+.search-player-form {
+    width: 80%; /* 동일한 폭으로 설정, 필요에 따라 조절 가능 */
+    padding: 20px;
+    border: 1px solid #132257;
+    background-color: white;
+    margin: 10px; /* 간격 조절 */
+}
+
+.player-list {
+    width: 80%; /* 동일한 폭으로 설정, 필요에 따라 조절 가능 */
+    padding: 20px;
+    border: 1px solid #132257;
+    background-color: white;
+    margin: 10px; /* 간격 조절 */
+}
+
+/* 추가 버튼 스타일 */
+.add-button {
+    background-color: #132257;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+.add-button:hover {
+    background-color: #0054a5;
+}
+
+/* 선수 검색 및 추가 양식 스타일 */
+.form-title,
+.search-label,
+.search-input {
+    font-family: Arial, sans-serif; /* 원하는 글꼴로 변경 */
+    font-size: 16px;
+    color: #132257; /* 텍스트 색상 변경 */
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+/* 추가 버튼 스타일 */
+.add-button {
+    background-color: #132257;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+.add-button:hover {
+    background-color: #0054a5;
+}
